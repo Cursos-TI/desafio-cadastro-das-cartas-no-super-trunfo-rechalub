@@ -6,7 +6,7 @@ int main() {
     char estado[100];
     char cidade[40];
     char codigo[20];
-    
+
 
     printf("Digite o nome do estado:\n");
     scanf("%s",&estado);
