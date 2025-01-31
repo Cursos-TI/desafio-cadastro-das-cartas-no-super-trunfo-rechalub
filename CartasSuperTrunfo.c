@@ -4,13 +4,13 @@ int main() {
 
 //variaves:
 
-    char estado[55];
+    char estado[50];
     char cidade[30];
     char codigo[20];
-    int populaçao;
-    float área,km²;
+    float populacao;
+    float area;
     float pib;
-    int pontos,turisticos;
+    int pontos_turisticos;
 
 //entrada e saidas:
 
@@ -23,26 +23,26 @@ int main() {
     printf("Digite o codigo da cidade:\n");
     scanf("%s" ,&codigo);
     
-    printf("Digite a populaçao:\n");
-    scanf("%d" ,&populaçao);
+    printf("Digite a população:\n");
+    scanf("%f" ,&populacao);
 
     printf("Digite a área em km²:\n");
-    scanf("%f" ,&área);
+    scanf("%f" ,&area);
 
     printf("Digite o pib:\n");
     scanf("%f" ,&pib);
 
     printf("Digite quantos pontos turisticos:\n");
-    scanf("%d" ,&pontos,turisticos);
+    scanf("%d" ,&pontos_turisticos);
 
 // O que vai ser imprimido:
 
     printf("nome do estado: %s -nome da cidade: %s " , estado , cidade);
     printf("codigo: %s" ,codigo);
-    printf("populaçao: %d" ,populaçao);
-    printf("área em km²: %f" ,área ,km²);
+    printf("populaçao: %f" ,populacao);
+    printf("área em km: %f" ,area);
     printf("pib: %f" ,pib);
-    printf("pontos turisticos: %d" ,pontos ,turisticos);
+    printf("pontos turisticos: %d" ,pontos_turisticos);
 
 
 
