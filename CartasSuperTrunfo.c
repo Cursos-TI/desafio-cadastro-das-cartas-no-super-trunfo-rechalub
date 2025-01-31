@@ -7,7 +7,7 @@ int main() {
     char estado[50];
     char cidade[30];
     char codigo[20];
-    float populacao;
+    int populacao;
     float area;
     float pib;
     int pontos_turisticos;
@@ -24,7 +24,7 @@ int main() {
     scanf("%s" ,&codigo);
     
     printf("Digite a população:\n");
-    scanf("%f" ,&populacao);
+    scanf("%d" ,&populacao);
 
     printf("Digite a área em km²:\n");
     scanf("%f" ,&area);
@@ -37,12 +37,13 @@ int main() {
 
 // O que vai ser imprimido:
 
-    printf("nome do estado: %s -nome da cidade: %s " , estado , cidade);
-    printf("codigo: %s" ,codigo);
-    printf("populaçao: %f" ,populacao);
-    printf("área em km: %f" ,area);
-    printf("pib: %f" ,pib);
-    printf("pontos turisticos: %d" ,pontos_turisticos);
+    printf("nome do estado: %s\n" , estado);
+    printf("nome da cidade: %s\n" ,cidade);
+    printf("codigo: %s\n" ,codigo);
+    printf("populaçao: %d\n" ,populacao);
+    printf("área em km: %f\n" ,area);
+    printf("pib: %f\n" ,pib);
+    printf("pontos turisticos: %d\n" ,pontos_turisticos);
 
 
 
